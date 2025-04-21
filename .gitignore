@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+application/
+dependencies/
+snapshot-dependencies/
+spring-boot-loader/
