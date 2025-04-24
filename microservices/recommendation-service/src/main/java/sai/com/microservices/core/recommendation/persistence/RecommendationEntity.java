@@ -1,5 +1,6 @@
 package sai.com.microservices.core.recommendation.persistence;
 
+import static java.lang.String.format;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 import org.springframework.data.mongodb.core.index.CompoundIndex;
@@ -30,6 +31,11 @@ public class RecommendationEntity {
         this.author = author;
         this.rating = rating;
         this.content = content;
+    }
+
+    @Override
+    public String toString() {
+        return format("RecommendationEntity: %s/%d", productId, recommendationId);
     }
 
     public String getId() {
