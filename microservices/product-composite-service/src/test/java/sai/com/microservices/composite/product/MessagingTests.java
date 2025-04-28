@@ -33,7 +33,9 @@ import sai.com.api.core.recommendation.Recommendation;
 import sai.com.api.core.review.Review;
 import sai.com.api.event.Event;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT, properties = { "spring.main.allow-bean-definition-overriding=true" })
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = {
+        "spring.main.allow-bean-definition-overriding=true",
+        "eureka.client.enabled=false" })
 @Import({ TestChannelBinderConfiguration.class })
 class MessagingTests {
 

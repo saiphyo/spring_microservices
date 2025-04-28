@@ -22,7 +22,7 @@ import sai.com.api.exceptions.InvalidInputException;
 import sai.com.api.exceptions.NotFoundException;
 import sai.com.microservices.composite.product.services.ProductCompositeIntegration;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT)
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = { "eureka.client.enabled=false" })
 class ProductCompositeServiceApplicationTests {
 
 	private static final int PRODUCT_ID_OK = 1;
