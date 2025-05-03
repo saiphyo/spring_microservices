@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+TENANT=dev-1ue36fk25t15nxd1.us.auth0.com
+MGM_CLIENT_ID=Yss0onTK5NT3ktJAjJmz74BwfmVHLGzE
+MGM_CLIENT_SECRET=INamsKTvBCYAKySUeEUOihodufGV5lat7TPQKljCazHpVGS_rCwBEUeFFrRQ8QcN
+USER_EMAIL=kosai32@gmail.com
+USER_PASSWORD=A5LRJ5$7gzEsUcY
