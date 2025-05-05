@@ -20,7 +20,8 @@ import sai.com.api.event.Event;
 import sai.com.api.exceptions.InvalidInputException;
 import sai.com.microservices.core.product.persistence.ProductRepository;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT, properties = { "eureka.client.enabled=false" })
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = { "eureka.client.enabled=false",
+		"spring.cloud.config.enabled=false" })
 class ProductServiceApplicationTests extends MongoDbTestBase {
 
 	@Autowired
