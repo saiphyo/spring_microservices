@@ -27,7 +27,6 @@ import sai.com.microservices.composite.product.services.ProductCompositeIntegrat
 @SpringBootTest(webEnvironment = RANDOM_PORT, classes = { TestSecurityConfig.class }, properties = {
 		"spring.security.oauth2.resourceserver.jwt.issuer-uri=",
 		"spring.main.allow-bean-definition-overriding=true",
-		"eureka.client.enabled=false",
 		"spring.cloud.config.enabled=false" })
 class ProductCompositeServiceApplicationTests {
 
