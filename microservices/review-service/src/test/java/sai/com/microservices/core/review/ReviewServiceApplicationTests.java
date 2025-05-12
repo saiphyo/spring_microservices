@@ -23,8 +23,7 @@ import sai.com.microservices.core.review.persistence.ReviewRepository;
 @SpringBootTest(webEnvironment = RANDOM_PORT, properties = {
 		"spring.cloud.stream.defaultBinder=rabbit",
 		"logging.level.sai.com=DEBUG",
-		"spring.jpa.hibernate.ddl-auto=update",
-		"spring.cloud.config.enabled=false" })
+		"spring.jpa.hibernate.ddl-auto=update" })
 class ReviewServiceApplicationTests extends MySqlTestBase {
 
 	@Autowired

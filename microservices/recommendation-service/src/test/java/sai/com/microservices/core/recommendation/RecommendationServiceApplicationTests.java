@@ -20,7 +20,7 @@ import sai.com.api.event.Event;
 import sai.com.api.exceptions.InvalidInputException;
 import sai.com.microservices.core.recommendation.persistence.RecommendationRepository;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT, properties = { "spring.cloud.config.enabled=false" })
+@SpringBootTest(webEnvironment = RANDOM_PORT)
 class RecommendationServiceApplicationTests extends MongoDbTestBase {
 
 	@Autowired
