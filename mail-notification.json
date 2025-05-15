@@ -1,0 +1,20 @@
+{
+  "id": null,
+  "uid": "WyN_D5aHk",
+  "name": "mail",
+  "type": "email",
+  "isDefault": true,
+  "sendReminder": false,
+  "disableResolveMessage": false,
+  "frequency": "",
+  "created": "2025-05-15T08:39:12Z",
+  "updated": "2025-05-15T08:39:12Z",
+  "settings": {
+    "addresses": "sai@minikube.me",
+    "autoResolve": true,
+    "httpMethod": "POST",
+    "severity": "critical",
+    "uploadImage": false
+  },
+  "secureFields": {}
+}
